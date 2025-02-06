@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>TrelApps.CSharp.Extensions</PackageId>
+    <Copyright>Copyright © $([System.DateTime]::Now.ToString(yyyy)) TrelApps</Copyright>
+    <PackageDescription>Common Extension methods for Assembly, Process and String types.</PackageDescription>
+    <PackageTags>ExtensionMethods,CSharp,C#,Extensions</PackageTags>
+    <PackageProjectUrl>https://github.com/TrelApps/TrelApps.CSharp.Extensions</PackageProjectUrl>
+    <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
+    <Version>0.0.1</Version>
+    <Authors>Trelston Moraes</Authors>
+    <Company>TrelApps</Company>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/TrelApps/TrelApps.CSharp.Extensions</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include=".\..\..\README.md">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+</Project>
