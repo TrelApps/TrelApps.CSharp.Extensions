@@ -2,7 +2,7 @@ using System.Reflection;
 
 namespace TrelApps.CSharp.Extensions;
 
-internal static class AssemblyExtensions
+public static class AssemblyExtensions
 {
     public static async Task<string> ReadResourceAsync(this Assembly assembly, string name)
     {
