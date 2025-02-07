@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <PackageId>TrelApps.CSharp.Extensions</PackageId>
@@ -14,7 +14,7 @@
     <RepositoryUrl>https://github.com/TrelApps/TrelApps.CSharp.Extensions</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild> -->
   </PropertyGroup>
 
   <ItemGroup>
